@@ -80,7 +80,7 @@ async function parseRawRepository(repo: string): Promise<ExtensionInfo> {
   const extPackageInfo = parsePackageJson(res.data, repo);
 
   if (extPackageInfo.iconUrl) {
-    extPackageInfo.iconUrl = repo + extPackageInfo.iconUrl;
+    extPackageInfo.iconUrl = repo + 'static/' + extPackageInfo.iconUrl;
   }
 
   return {
@@ -119,7 +119,7 @@ async function parseGithubRepository(repo: string): Promise<ExtensionInfo> {
     const extPackageInfo = parsePackageJson(content, repo);
     const defaultBranch = await getDefaultBranch(owner, repoName);
     if (extPackageInfo.iconUrl) {
-      extPackageInfo.iconUrl = `https://raw.githubusercontent.com/${owner}/${repoName}/${defaultBranch}/${extPackageInfo.iconUrl}`;
+      extPackageInfo.iconUrl = `https://raw.githubusercontent.com/${owner}/${repoName}/${defaultBranch}/static/${extPackageInfo.iconUrl}`;
     }
 
     const releaseTags = await getGithubReleaseTags(owner, repoName);
