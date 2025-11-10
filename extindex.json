@@ -1,0 +1,15 @@
+[
+  {
+    "id": "colin.analytics",
+    "author": "Colin",
+    "description": "Opt-in collection of information on Flashpoint usage.",
+    "title": "Flashpoint Analytics",
+    "repository": "https://github.com/FlashpointProject/FPL-Analytics/",
+    "iconUrl": "https://raw.githubusercontent.com/FlashpointProject/FPL-Analytics/main/icon.png",
+    "newestVersion": "2.0.1",
+    "artifactName": "analytics-ext.zip",
+    "availableVersions": [
+      "2.0.1"
+    ]
+  }
+]
