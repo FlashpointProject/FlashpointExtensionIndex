@@ -12,5 +12,18 @@
       "2.0.2",
       "2.0.1"
     ]
+  },
+  {
+    "id": "flashpoint archive.controller-support",
+    "author": "Flashpoint Archive",
+    "description": "Enables individual game mapping of controller to keyboard inputs",
+    "title": "Controller Support",
+    "repository": "https://github.com/FlashpointProject/FPL-ControllerSupport/",
+    "iconUrl": "https://raw.githubusercontent.com/FlashpointProject/FPL-ControllerSupport/main/static/icon.svg",
+    "newestVersion": "1.0.0",
+    "artifactName": "controller-support.zip",
+    "availableVersions": [
+      "1.0.0"
+    ]
   }
 ]
