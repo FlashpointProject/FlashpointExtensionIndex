@@ -14,7 +14,7 @@
     ]
   },
   {
-    "id": "flashpoint archive.controller-support",
+    "id": "flashpoint-archive.controller-support",
     "author": "Flashpoint Archive",
     "description": "Enables individual game mapping of controller to keyboard inputs",
     "title": "Controller Support",
