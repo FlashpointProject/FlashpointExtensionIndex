@@ -20,9 +20,10 @@
     "title": "Controller Support",
     "repository": "https://github.com/FlashpointProject/FPL-ControllerSupport/",
     "iconUrl": "https://raw.githubusercontent.com/FlashpointProject/FPL-ControllerSupport/main/static/icon.svg",
-    "newestVersion": "1.0.0",
+    "newestVersion": "1.0.1",
     "artifactName": "controller-support.zip",
     "availableVersions": [
+      "1.0.1",
       "1.0.0"
     ]
   }
