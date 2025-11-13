@@ -1,7 +1,8 @@
 {
   "repositories": {
     "FlashpointArchive": [
-      "https://github.com/FlashpointProject/FPL-Analytics"
+      "https://github.com/FlashpointProject/FPL-Analytics",
+      "https://github.com/FlashpointProject/FPL-ControllerSupport"
     ]
   }
 }
