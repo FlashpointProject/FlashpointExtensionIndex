@@ -52,7 +52,7 @@ function parsePackageJson(fileContent: string, repo: string): ExtPackageInfo {
   const json: RawPackageJson = JSON.parse(fileContent);
 
   return {
-    id: `${json.author.toLowerCase()}.${json.name.toLowerCase()}`,
+    id: `${json.author.toLowerCase().replace(' ', '-')}.${json.name.toLowerCase().replace(' ', '-')}`,
     author: json.author,
     description: json.description || '',
     title: json.displayName || json.name,
